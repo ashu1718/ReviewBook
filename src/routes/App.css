@@ -1,0 +1,28 @@
+.main-container{
+  display: flex;
+}
+.sidebar{
+  min-height: 740px;
+}
+.head-foot{
+  width: 100%;
+}
+
+.Input-form{
+  margin: 5px;
+  padding: 50px 20px;
+  width: 50%;
+}
+.footer-container{
+  position:relative
+  ;
+  margin-top: 60px;
+}
+.heading{
+  text-align: center;
+  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif;
+}
+.loading{
+  margin-top: 10%;
+}

@@ -1,0 +1,9 @@
+.cardContainer{
+    margin: 20px 50px;
+}
+.tagClass{
+    margin: 0px  3px;
+}
+.deleteBadge{
+    cursor:pointer;
+}
