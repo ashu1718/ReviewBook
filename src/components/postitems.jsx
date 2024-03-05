@@ -4,20 +4,13 @@ import styles from "./postitems.module.css";
 import { useContext, useEffect, useState } from "react";
 import EmptyMessage from "./empty_message";
 import Loading from "./loading";
+import { useNavigate } from "react-router-dom";
 const PostItems = ({ setcurrTab }) => {
   const { postList, fetching } = useContext(StoredItem);
 
-  const handleReviewClick = () => {
-    setcurrTab("WriteReview");
-  };
-
   return (
     <>
-      <div className={styles.reviewButton}>
-        <button className="btn btn-light" onClick={handleReviewClick}>
-          Write Your Review
-        </button>
-      </div>
+      <div className={styles.reviewButton}></div>
       {fetching && <Loading />}
       {!fetching && postList.length === 0 && <EmptyMessage></EmptyMessage>}
       <div className={styles["post-container"]}>

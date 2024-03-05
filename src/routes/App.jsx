@@ -10,7 +10,7 @@ import StoredItemProvider from "../store/storedItems";
 import { Outlet } from "react-router-dom";
 function App() {
   const [currTab, setcurrTab] = useState("Home");
-  const [itemList, setitemList] = useState([]);
+
   return (
     <>
       <div className="main-container">
