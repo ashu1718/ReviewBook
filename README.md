@@ -1,8 +1,5 @@
-# React + Vite
+Developed a single-page web application utilizing React, Bootstrap, and dummy APIs to facilitate seamless submission and display of book reviews.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Leveraged React hooks and routing for efficient state management and seamless navigation.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Integrated form submission and dummy API for streamlined review submission and retrieval.
